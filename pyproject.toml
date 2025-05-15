@@ -1,0 +1,15 @@
+[project]
+name = "daycare-marketplace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.15.2",
+    "asyncpg>=0.30.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "sqlalchemy>=2.0.40",
+    "uuid>=1.30",
+    "uvicorn>=0.34.2",
+]
